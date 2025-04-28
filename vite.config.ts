@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import path from "node:path";
 import react from "@vitejs/plugin-react";
 import { inspectorServer } from "@react-dev-inspector/vite-plugin";
 
@@ -14,9 +15,16 @@ export default defineConfig({
     }),
     isDev && inspectorServer(),
   ],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
   css: {
     preprocessorOptions: {
-      less: {},
+      less: {
+        paths: [path.resolve(__dirname, "src")], // 设置 LESS 模块解析的根路径
+      },
     },
   },
 });
