@@ -1,7 +1,8 @@
 import { ConfigProvider, theme } from "antd";
+import { RouterProvider } from "react-router-dom";
 
 import { Inspector } from "./inspector";
-import App from "./App";
+import { createRouter } from "./router";
 // 引入重置样式
 import "./assets/styles/reset.less";
 
@@ -19,7 +20,7 @@ export default function Root() {
       }}
     >
       <Inspector keys={["shift", "ctrl", "f"]} />
-      <App />
+      <RouterProvider router={createRouter()} />
     </ConfigProvider>
   );
 }
