@@ -14,4 +14,9 @@ export default defineConfig({
     }),
     isDev && inspectorServer(),
   ],
+  css: {
+    preprocessorOptions: {
+      less: {},
+    },
+  },
 });
