@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import path from "node:path";
 import react from "@vitejs/plugin-react";
 import { inspectorServer } from "@react-dev-inspector/vite-plugin";
+import { theme } from "antd";
 
 const isDev = process.env.NODE_ENV === "development";
 
@@ -23,6 +24,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       less: {
+        modifyVars: theme.darkAlgorithm(theme.defaultSeed),
         paths: [path.resolve(__dirname, "src")], // 设置 LESS 模块解析的根路径
       },
     },

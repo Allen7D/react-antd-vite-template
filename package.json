@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-dev-inspector/babel-plugin": "^2.0.1",
     "@react-dev-inspector/vite-plugin": "^2.0.1",
+    "antd": "^5.24.8",
     "react": "^19.0.0",
     "react-dev-inspector": "^2.0.1",
     "react-dom": "^19.0.0"
