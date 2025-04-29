@@ -16,6 +16,9 @@ export default defineConfig({
     }),
     isDev && inspectorServer(),
   ],
+  server: {
+    port: 3000,
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
