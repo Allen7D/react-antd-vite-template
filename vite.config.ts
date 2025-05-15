@@ -27,7 +27,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       less: {
-        modifyVars: theme.darkAlgorithm(theme.defaultSeed),
+        modifyVars: theme.defaultAlgorithm(theme.defaultSeed),
         paths: [path.resolve(__dirname, "src")], // 设置 LESS 模块解析的根路径
       },
     },

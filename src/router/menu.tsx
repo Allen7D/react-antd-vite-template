@@ -6,6 +6,7 @@ type MenuItem = Required<MenuProps>["items"][number] & {
   children?: MenuItem[];
 };
 
+// eslint-disable-next-line 
 const hasPermission = (...args: unknown[]) => {
   return true;
 };
@@ -60,6 +61,6 @@ export const useRouterMenuItems = () => {
     },
   ];
 
-  const filteredMenuItems = [...filterMenuItems(routerMenuItems)];
+  const filteredMenuItems = [...filterMenuItems(routerMenuItems)] as MenuItem[];
   return filteredMenuItems;
 };
