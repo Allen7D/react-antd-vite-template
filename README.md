@@ -2,16 +2,16 @@
 
 ## 项目介绍
 
-这是一个基于 React 19、TypeScript、Vite 6、Ant Design 5 和 Tailwind CSS 3.4 的极简前端开发模板。该模板提供了一个完整的开发环境和项目结构，帮助开发者快速搭建 React 应用。
+这是一个基于 React 19.2、TypeScript、Vite 6、Ant Design 6 和 Tailwind CSS 3.4 的极简前端开发模板。该模板提供了一个完整的开发环境和项目结构，帮助开发者快速搭建 React 应用。
 
 <img src="https://raw.githubusercontent.com/Allen7D/ImageHosting/main/images/20250515095840.png" />
 
 ## 技术栈
 
-- **React 19**: 用于构建用户界面的 JavaScript 库
+- **React 19.2**: 用于构建用户界面的 JavaScript 库
 - **TypeScript 5.7**: JavaScript 的超集，添加了静态类型定义
 - **Vite 6**: 下一代前端构建工具，提供极速的开发体验
-- **Ant Design 5**: 企业级 UI 设计语言和 React 组件库
+- **Ant Design 6**: 企业级 UI 设计语言和 React 组件库
 - **Tailwind CSS 3.4**: 实用优先的 CSS 框架
 - **React Router 7**: React 应用的声明式路由
 - **React Dev Inspector**: 开发调试工具
@@ -87,8 +87,8 @@ pnpm lint
 ## 特性
 
 - 🚀 基于 Vite 的极速开发体验
-- 📦 开箱即用的 React 19 + TypeScript 5.7 配置
-- 🎨 集成 Ant Design 5 组件库和 Tailwind CSS 3.4
+- 📦 开箱即用的 React 19.2 + TypeScript 5.7 配置
+- 🎨 集成 Ant Design 6 组件库和 Tailwind CSS 3.4
 - 🔍 内置 React Dev Inspector 调试工具
 - 📱 响应式设计支持
 - 🧩 模块化的项目结构
